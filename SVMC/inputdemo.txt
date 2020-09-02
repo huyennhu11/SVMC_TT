@@ -1,0 +1,21 @@
+//			a[i] = sc.nextInt();
+//		}
+//		//quy hoach dong
+//		l[0] = 1;
+//		int lmax;
+//		for(int i = 1; i < m; i++) 
+//		{
+//			lmax = 0;
+//			for(int j= 0; j < i; j++) 
+//			{
+//				if(a[i] > a[j]) 
+//					if(l[j] > lmax) 
+//						lmax = l[j];
+//			}
+//			l[i] = lmax +1;
+//		}
+//		int lenmax = 0;
+//		for(int i= 0; i< m; i++) {
+//			if(l[i] > lenmax) lenmax = l[i];
+//		}
+//		System.out.print(lenmax);
